@@ -3,7 +3,7 @@ import pickle
 import os
 import sys
 
-with open('../model_v2.pkl', 'rb') as f:
+with open('../model_v3.pkl', 'rb') as f:
         rf = pickle.load(f)
 
 def make_prediction(input_data:list):
